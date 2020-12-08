@@ -2,11 +2,11 @@
 
 import subprocess
 
-print("="*20)
+print("="*30)
 print("AZenwa - Azure Post Exploitation Enumeration")
 print('\n')
 print("by Github: @nsfLabs")
-print("="*20)
+print("="*30)
 
 azLogin = {
     "Login Command":{
@@ -65,4 +65,4 @@ if __name__ == "__main__":
     azGroupInfo = execCmd(azGroupInfo)
 
     print("Finished")
-    print("="*20)
+    print("="*30)
